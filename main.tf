@@ -8,7 +8,7 @@ resource "random_string" "navrandom" {
   length = 6
   upper = false 
   special = false
-  number = false   
+  number = false 
 }
 
 # Create Resource Group
